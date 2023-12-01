@@ -1,13 +1,20 @@
-/*  your css code here. If applicable */
-nav{
-	background-color: #d3d3d3;
-	padding: 10px;
-}
+        nav {
+            background-color: #D3D3D3;
+            padding: 10px;
+        }
 
-ul{
-	list-style: none;
-}
-li{
-	display: inline;
-	margin-right: 1rem;
-}
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li {
+            margin-right: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
